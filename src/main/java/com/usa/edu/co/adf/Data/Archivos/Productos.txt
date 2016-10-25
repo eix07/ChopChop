@@ -1,0 +1,7 @@
+Papita                   8000.0    uploads/Papa-Wemba.jpg                                                                              esclavo  0 
+Maracuya                 800.0     uploads/maracuya.jpg                                                                                fruta    0 
+Tomate arbol             300.0     uploads/tomateArbol.jpg                                                                             fruta    0 
+Tomate                   700.0     uploads/tomate.jpg                                                                                  hortaliza0 
+Pepino Negro             1000.0    uploads/pepinoNegro.jpg                                                                             verdura  0 
+Manzana verde            900.0     uploads/manzanaVerde.jpg                                                                            fruta    0 
+Tomaco                   5000.0    uploads/307.jpg                                                                                     verdura  0 

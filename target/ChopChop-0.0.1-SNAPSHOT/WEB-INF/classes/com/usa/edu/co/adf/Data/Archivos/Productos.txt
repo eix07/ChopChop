@@ -1,0 +1,4 @@
+Tomate Arbol             1500.0    uploads/tomateArbol.jpg                                                                             
+Manzana verde            600.0     uploads/manzanaVerde.jpg                                                                            
+Tomate                   460.0     uploads/tomate.jpg                                                                                  
+Pepino negro             1000.0    uploads/pepinoNegro.jpg                                                                             

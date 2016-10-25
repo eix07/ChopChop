@@ -1,0 +1,2 @@
+com.usa.edu.co.adf.Data.Objetos.Producto
+C:/Users/river/workspace/ChopChop/src/main/java/com/usa/edu/co/adf/Data/Archivos/Productos.txt

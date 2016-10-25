@@ -1,0 +1,50 @@
+package rules
+ 
+import com.usa.edu.co.adf.Data.Objetos.Producto;
+
+rule "IVA"
+	when
+		m:Producto()
+	then
+	m.hacerIncremento(16);
+end
+ 
+rule "FrutasCrazyTime"
+
+    when
+        $miProducto : Producto(type == 'fruta',timeShop>30)  
+    then
+    	System.out.println("FrutasCrazyTime");
+        $miProducto.hacerDescuento(20);
+        $miProducto.setType($miProducto.getType()+" ");
+
+end
+
+rule "LicoresCrazyTime"
+	
+	when
+		miProducto: Producto(type=="licores",timeShop<=30)
+		
+	then
+		System.out.println("LicoresCrazyRule")
+		miProducto.hacerDescuento(15);
+        miProducto.setType($miProducto.getType()+" ");
+
+rule "descuentoVerduras"
+
+	when 
+		miProducto : Producto(type=="verdura")
+	then
+		miProducto.hacerDescuento(30);
+		miProducto.setType(miProducto.getType()+" ");
+end
+
+rule "10 minutes crazy"
+	
+	when
+		miProducto: Producto(timeShop<=10&&timeShop>=1)
+		
+	then
+		System.out.println("10Crazy")
+		miProducto.hacerDescuento(50);
+        miProducto.setType($miProducto.getType()+" ");

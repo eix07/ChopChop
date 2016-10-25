@@ -1,0 +1,21 @@
+package rules
+import com.usa.edu.co.adf.Data.Objetos.Producto;
+
+rule "descuentoLunes"
+
+    when
+        miProducto : Producto(type=="fruta") 
+    then
+        miProducto.hacerDescuento(20);
+
+end
+
+rule "descuentoJueves"
+
+	when 
+		miProducto : Producto(type=="verdura")
+	then
+		miProducto.hacerDescuento(30);
+		
+end
+
